@@ -14,7 +14,7 @@ def countSumOfDigits(data):
 
 number = getValidate()
 result = countSumOfDigits(number)
-print('Сумма цифр введенного числа:', result)
+print('Sum of digits of', number, 'equal to', result)
 
 '''
 OUTPUT ===========================
