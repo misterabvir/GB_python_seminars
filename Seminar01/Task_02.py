@@ -5,15 +5,15 @@ def getValidate():
         print('Wrong input, try again')
     return int(data)
 
-def countSumOfDigits(data):
-    sumOfDigits = 0
+def sumOfDigits(data):
+    count = 0
     while data != 0:
-        sumOfDigits += data % 10
+        count += data % 10
         data //= 10
-    return sumOfDigits
+    return count
 
 number = getValidate()
-result = countSumOfDigits(number)
+result = sumOfDigits(number)
 print('Sum of digits of', number, 'equal to', result)
 
 '''
