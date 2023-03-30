@@ -12,13 +12,13 @@
 import random
 
 def display(field:list):
-    print(f'+---+---+---+')
-    print(f'| {field[0]} | {field[1]} | {field[2]} |')
-    print(f'+---+---+---+')
-    print(f'| {field[3]} | {field[4]} | {field[5]} |')
-    print(f'+---+---+---+')
-    print(f'| {field[6]} | {field[7]} | {field[8]} |')
-    print(f'+---+---+---+')
+    print(f'┌───┬───┬───┐')
+    print(f'│ {field[0]} │ {field[1]} │ {field[2]} │')
+    print(f'├───┼───┼───┤')
+    print(f'│ {field[3]} │ {field[4]} │ {field[5]} │')
+    print(f'├───┼───┼───┤')
+    print(f'│ {field[6]} | {field[7]} │ {field[8]} │')
+    print(f'└───┴───┴───┘')
 
 def get_user_input(field:list):
     # введено число
